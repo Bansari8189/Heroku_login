@@ -6,12 +6,12 @@ app = Flask(__name__)
 
 # Change this to your secret key (can be anything, it's for extra protection)
 app.secret_key = '12345'
-#mysql://b94eaf978b0bf5:a68f6340@us-cdbr-east-02.cleardb.com/heroku_a56e2d6562431f4?reconnect=true
+#mysql://bb084372ec497f:ae140677@us-cdbr-east-02.cleardb.com/heroku_95bd855e45bc403?reconnect=true
 # Enter your database connection details below
 app.config['MYSQL_HOST'] = 'us-cdbr-east-02.cleardb.com'
-app.config['MYSQL_USER'] = 'b94eaf978b0bf5'
-app.config['MYSQL_PASSWORD'] = 'a68f6340'
-app.config['MYSQL_DB'] = 'heroku_a56e2d6562431f4'
+app.config['MYSQL_USER'] = 'bb084372ec497f'
+app.config['MYSQL_PASSWORD'] = 'ae140677'
+app.config['MYSQL_DB'] = 'heroku_95bd855e45bc403'
 
 # Intialize MySQL
 mysql = MySQL(app)
